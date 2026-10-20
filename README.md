@@ -1,3 +1,10 @@
+移除了大陆地区的下载安装限制，由于文档未描述，尚不明确所有缺失的功能。
+
+* 已知：CurseForge 不可用
+
+
+以下为原版readme
+
 **简体中文** | [English](README-EN.md) | [繁體中文](README-ZH_TW.md)
 
 <div align="center">
