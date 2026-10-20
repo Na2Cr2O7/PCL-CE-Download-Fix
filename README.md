@@ -1,16 +1,29 @@
 移除了大陆地区的下载安装限制，由于文档未描述，尚不明确所有缺失的功能。
 
 * 已知：CurseForge 不可用
+<details>
 
 [![Stars](https://img.shields.io/github/stars/Na2Cr2O7/PCL-CE-Download-Fix?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=stars&labelColor=444444&color=eac54f)](https://github.com/Na2Cr2O7/PCL-CE-Download-Fix/)
+
 ![GitHub Release](https://img.shields.io/github/v/release/Na2Cr2O7/PCL-CE-Download-Fix?label=release&logo=github&style=for-the-badge)
+
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Na2Cr2O7/PCL-CE-Download-Fix/build-test.yml?style=for-the-badge)
 
 [![Issues](https://img.shields.io/github/issues/Na2Cr2O7/PCL-CE-Download-Fix?style=for-the-badge&label=issues&labelColor=444444&color=1F883D&logo=github)](https://github.com/Na2Cr2O7/PCL-CE-Download-Fix/issues)
+
 [![Pull requests](https://img.shields.io/github/issues-pr/Na2Cr2O7/PCL-CE-Download-Fix?style=for-the-badge&label=pull%20requests&labelColor=444444&color=1F883D&logo=github)](https://github.com/PCL-Community/PCL-CE/pulls)
+
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Na2Cr2O7/PCL-CE-Download-Fix/total?style=for-the-badge)
 
 
+
+[![Star History Chart](https://api.star-history.com/chart?repos=Na2Cr2O7/PCL-CE-Download-Fix&type=date&legend=top-left&sealed_token=Ts-GaAXJ5nb9fJERusrXneo05pfZ83tMhReHJ98nmmlemBTqHS5Ozocdep1MTMdsX-6CRiQH9TqiS1Kk7SxjTfk02eUOxnm25oHff6TLLvrY7pGujOkU1IwjVFQLE-5GJYogutJAyI78jujBlOnpk3J2OKAY1PBhmkyUOzW1C1sdz5BzPbj2eBbJGvDx)](https://www.star-history.com/?repos=Na2Cr2O7%2FPCL-CE-Download-Fix&type=date&legend=top-left)
+
+
+**此页浏览量**（总计 / 今日）：[![Hits](https://hits.zkitefly.eu.org/?tag=https://github.com/Na2Cr2O7/PCL-CE-Download-Fix)](https://hits.zkitefly.eu.org/?tag=https://github.com/Na2Cr2O7/PCL-CE-Download-Fix&web=true)
+
+[![](https://contrib.rocks/image?repo=Na2Cr2O7/PCL-CE-Download-Fix)](https://github.com/Na2Cr2O7/PCL-CE-Download-Fix/graphs/contributors)
+</details>
 以下为原版readme
 
 **简体中文** | [English](README-EN.md) | [繁體中文](README-ZH_TW.md)
