@@ -10,6 +10,9 @@
         <PublishUrl>publish\</PublishUrl>
         <PublishSingleFile>true</PublishSingleFile>
         <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+        <!-- 与 CI 的 no-self-contained 选项保持一致：发布为框架依赖单文件，避免把整个 .NET 运行时打进 EXE。
+             若确实需要自带运行时，可显式传入 -p:SelfContained=true（文件会增大约 160 MB）。 -->
+        <SelfContained>false</SelfContained>
         <RuntimeIdentifier Condition="'$(Platform)' == 'x64'">win-x64</RuntimeIdentifier>
         <RuntimeIdentifier Condition="'$(Platform)' == 'ARM64'">win-arm64</RuntimeIdentifier>
         <EnableWindowsTargeting>true</EnableWindowsTargeting>
