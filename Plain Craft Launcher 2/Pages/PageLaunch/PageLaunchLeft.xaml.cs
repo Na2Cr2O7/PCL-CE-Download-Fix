@@ -94,7 +94,7 @@ public partial class PageLaunchLeft
                 packInstallPath = Path.Combine(ModBase.exePath, "modpack.zip");
             if (File.Exists(Path.Combine(ModBase.exePath, "modpack.mrpack")))
                 packInstallPath = Path.Combine(ModBase.exePath, "modpack.mrpack");
-            if (packInstallPath is not null && !RestrictedFeaturePolicy.Check("auto-modpack-install"))
+            if (packInstallPath is not null )
                 packInstallPath = null;
             if (packInstallPath is not null)
             {

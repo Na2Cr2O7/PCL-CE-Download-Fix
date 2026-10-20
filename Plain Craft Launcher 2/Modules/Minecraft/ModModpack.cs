@@ -22,8 +22,8 @@ public static class ModModpack
     /// </summary>
     public static void ModpackInstall()
     {
-        if (!RestrictedFeaturePolicy.Check("modpack-install"))
-            return;
+        //if (!RestrictedFeaturePolicy.Check("modpack-install"))
+        //    return;
         var file = SystemDialogs.SelectFile(Lang.Text("Minecraft.Download.Modpack.FileDialog.Filter"),
             Lang.Text("Minecraft.Download.Modpack.FileDialog.Title")); // 选择整合包文件
         if (string.IsNullOrEmpty(file))

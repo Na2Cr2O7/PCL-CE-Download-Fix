@@ -340,7 +340,7 @@ public static class ModLaunch
             var skipClientDownloads = RestrictedFeaturePolicy.IsRestricted;
             if (skipClientDownloads && !ModDownload.McClientFilesAvailableLocally(ModInstanceList.McMcInstanceSelected))
             {
-                RestrictedFeaturePolicy.Check("minecraft-launch-missing-files");
+                //RestrictedFeaturePolicy.Check("minecraft-launch-missing-files");
                 throw new ModBase.CancelledException();
             }
 

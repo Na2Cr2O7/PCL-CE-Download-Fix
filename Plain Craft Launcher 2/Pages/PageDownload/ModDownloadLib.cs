@@ -68,7 +68,7 @@ public static class ModDownloadLib
     public static ModLoader.LoaderCombo<string> McDownloadClient(NetPreDownloadBehaviour behaviour, string id,
         string jsonUrl = null)
     {
-        if (!RestrictedFeaturePolicy.Check("minecraft-client-download")) return null;
+        //if (!RestrictedFeaturePolicy.Check("minecraft-client-download")) return null;
         try
         {
             var versionFolder = Path.Combine(ModFolder.mcFolderSelected, "versions", id);
@@ -135,7 +135,7 @@ public static class ModDownloadLib
     /// <param name="jsonUrl">Json 文件的 Mojang 官方地址。</param>
     public static void McDownloadClientCore(string id, string jsonUrl, NetPreDownloadBehaviour behaviour)
     {
-        if (!RestrictedFeaturePolicy.Check("minecraft-client-save")) return;
+        //if (!RestrictedFeaturePolicy.Check("minecraft-client-save")) return;
         try
         {
             var versionFolder = SystemDialogs.SelectFolder();
@@ -533,7 +533,7 @@ public static class ModDownloadLib
 
     public static void McDownloadMenuSave(object sender, RoutedEventArgs e)
     {
-        if (!RestrictedFeaturePolicy.Check("minecraft-client-save")) return;
+        //if (!RestrictedFeaturePolicy.Check("minecraft-client-save")) return;
         var element = (FrameworkElement)sender;
         MyListItem version;
         if (element is MyListItem s1) version = s1;
@@ -3738,7 +3738,7 @@ public static class ModDownloadLib
     /// </summary>
     public static bool McInstall(McInstallRequest request, string type = mcInstallDefaultType)
     {
-        if (!RestrictedFeaturePolicy.Check("minecraft-install")) return false;
+        //if (!RestrictedFeaturePolicy.Check("minecraft-install")) return false;
         try
         {
             var subLoaders = McInstallLoader(request, ignoreDump: type != mcInstallDefaultType);
