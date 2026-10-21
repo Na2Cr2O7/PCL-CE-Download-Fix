@@ -680,37 +680,33 @@ public partial class PageLaunchLeft
     /// </summary>
     private PageType pageCurrent = PageType.None;
 
-    private object PageGet(PageType type)
+    private static object PageGet(PageType type)
     {
         switch (type)
         {
             case PageType.Auth:
             {
-                if (ModMain.frmLoginAuth is null)
-                    ModMain.frmLoginAuth = new PageLoginAuth();
+                ModMain.frmLoginAuth ??= new PageLoginAuth();
                 return ModMain.frmLoginAuth;
             }
             case PageType.Ms:
             {
-                if (ModMain.frmLoginMs is null)
-                    ModMain.frmLoginMs = new PageLoginMs();
+                ModMain.frmLoginMs ??= new PageLoginMs();
                 return ModMain.frmLoginMs;
             }
             case PageType.Profile:
             {
-                if (ModMain.frmLoginProfile is null)
-                    ModMain.frmLoginProfile = new PageLoginProfile();
+                ModMain.frmLoginProfile ??= new PageLoginProfile();
                 return ModMain.frmLoginProfile;
             }
             case PageType.ProfileSkin:
             {
-                if (ModMain.frmLoginProfileSkin is null)
-                    ModMain.frmLoginProfileSkin = new PageLoginProfileSkin();
+                ModMain.frmLoginProfileSkin ??= new PageLoginProfileSkin();
                 return ModMain.frmLoginProfileSkin;
             }
             case PageType.Offline:
             {
-                if (ModMain.frmLoginOffline is null)
+                    if (ModMain.frmLoginOffline is null)
                     ModMain.frmLoginOffline = new PageLoginOffline();
                 return ModMain.frmLoginOffline;
             }
