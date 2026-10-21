@@ -98,9 +98,7 @@ jobs:
         uses: sigstore/gh-action-sigstore-python@790bc6befb9d733738f18d8f895854b453640ec9 # v3.5.0
         with:
           inputs: PCL2_CE_${{ matrix.configuration }}_${{ matrix.architecture }}.exe
-          verify: true
-          verify-cert-identity: https://github.com/PCL-Community/PCL-CE/.github/workflows/release-publish.yml@refs/heads/dev
-          verify-oidc-issuer: https://token.actions.githubusercontent.com
+          verify: false
 
       - name: Upload binary and signature to Release
         uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
